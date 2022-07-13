@@ -13,10 +13,16 @@ h1{
 	font-size: 70px;
 	color: transparent;
 	-webkit-text-stroke: 1px #ffea00;
-	background: url(back.png);
+	background: repeating-linear-gradient(
+        60deg,
+        #ffdc02 0,
+        #ffdc02 150px,
+        #00ffdc02 0,
+        #00ffdc02 230px
+      );
 	-webkit-background-clip: text;
 	
-	
+	background-size: 100% 100%;	
 	
 	background-position: 100px 0;
 	animation: image 20s linear infinite;
